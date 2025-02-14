@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphones</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Smartphones</h1>
+    <fieldset style="width: 750px; margin: auto;">
+        <legend>Dispositivos mobiles Smartphones</legend><br>
+        <label>Qué marca buscas?
+            <input list="Marcas-de-celulares" name="Marcas-de-celulares" type="text">
+        </label>
+
+        <datalist id="Marcas-de-celulares">
+            <option value="Samsung"></option>
+            <option value="Iphone"></option>
+            <option value="Huawei"></option>
+            <option value="POCO"></option>
+            <option value="Xiaomi"></option>
+            <option value="SONY"></option>
+            <option value="Motorola"></option>
+        </datalist>
+<br><br>
+        <label>De cuantas capacidad lo buscas?
+            <input type="text" name="Capacidad-espacio" list="Capacidad-espacio">
+        </label>
+
+        <datalist id="Capacidad-espacio">
+            <option value="32GB"></option>
+            <option value="64GB"></option>
+            <option value="120GB"></option>
+            <option value="255GB"></option>
+        </datalist>
+<br><br>
+        <label>Qué Gama te gustaría?
+            <input type="text" name="Gama-celular" list="Gama-celular">
+        </label>
+
+        <datalist id="Gama-celular">
+            <option value="A"></option>
+            <option value="C"></option>
+            <option value="S"></option>
+            <option value="X"></option>
+            <option value="S Pro"></option>
+            <option value="S Pro Max"></option>
+            <option value="X Pro"></option>
+            <option value="X Pro Max"></option>
+        </datalist>
+<br><br>
+        <button type="submit">Filtrar</button>
+    </fieldset>
+</body>
+</html>
